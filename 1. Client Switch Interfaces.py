@@ -8,7 +8,7 @@ import time
 def main():
 
     #Open the file that contains device name in colA and ipAddr in colB
-    with open('MSU_AcademicSwitches.csv',newline='') as csvfile:
+    with open('Switches.csv',newline='') as csvfile:
         line = csv.reader(csvfile,dialect='excel')
         #Row A:deviceName, Row B:ipAddr
         #next(line) if there are headers
