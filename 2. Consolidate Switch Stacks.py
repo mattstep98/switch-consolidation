@@ -10,7 +10,7 @@ myDir = os.listdir(os.getcwd())
 
 
 #Create or rewrite csv file to store stack information from previously generated csv files
-with open('MSU_Consolidated_Switches.csv', 'w', newline='') as f:
+with open('Switches.csv', 'w', newline='') as f:
     
     #Writing the headers to the created file
     f.write('Switch Stack,Total Ports,Switch Counts,Access Points - Up,Access Points - Down,Data - Up,Data - Down,Phone - Up,Phone - Down,Camera - Up,Camera - Down,Trunk - Up,Trunk - Down,No Description - Up,No Description - Down,Other Count,Other Notes\n')
